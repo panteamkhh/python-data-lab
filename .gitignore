@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated artifacts from running the notebooks
+*.npz
+*.csv
+*.png
+*.xlsx
+*.parquet
+
+# Local/source materials (raw transcripts, prompts) — not part of the course
+_source/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
