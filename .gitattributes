@@ -1,0 +1,12 @@
+# Normalize line endings across the repo
+* text=auto eol=lf
+
+# Jupyter notebooks are JSON text
+*.ipynb text eol=lf
+
+# Keep binary assets untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
